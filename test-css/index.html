@@ -1,0 +1,66 @@
+<!doctype html> <!-- 文档类型，必不可少 -->
+<html lang="en-US"> <!-- 根元素。包含lang属性，设置页面的主要语种 -->
+<head> <!-- 不向用户展示 -->
+    <meta charset="utf-8"/>
+    <!-- 视口元素可以确保页面以视口宽度进行渲染，避免移动端浏览器以比视口更宽的宽度渲染内容，导致内容缩小。 -->
+    <meta name="viewport" content="width=device-width"/>
+    <!-- 页面的标题，显示在浏览器标签页上 -->
+    <title>My test page</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <!--    <link rel="preconnect" href="https://fonts.bunny.net">-->
+    <!--    <link href="https://fonts.bunny.net/css?family=abeezee:400" rel="stylesheet" />-->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/> -->
+</head>
+
+<body>
+<!--
+<p> 开始标签(opening tag)
+</p> 结束标签(closing tag)
+开始标签和结束标签之间的为内容(content)
+开始标签、内容和结束标签组成了一个完整元素(element)
+class：属性(attribute)
+嵌套元素：<strong>very</strong>
+ -->
+<p class="editor-note">My cat is <strong>very</strong> grumpy</p>
+
+<!-- 4 个级别的标题 -->
+<h1>ORANGE</h1>
+<h2>顶层标题</h2>
+<h3>子标题</h3>
+<h4>次子标题</h4>
+
+<!--
+这里没有</img>结束标签，因为图片元素不需要通过内容来产生效果。
+alt: 描述文本
+-->
+<img src="./images/juzi.png" alt="My orange image"/>
+
+<!-- <p>用来指定段落 -->
+<p>At Mozilla, we're a global community of</p>
+<!--
+<ul> 无序列表(unordered list)
+<ol> 有序列表(ordered list)
+列表中每个项目使用<li>元素包围。
+ -->
+<ul>
+    <li>technologists</li>
+    <li>thinkers</li>
+    <li>builders</li>
+</ul>
+
+<ol>
+    <li>123</li>
+    <li>1231</li>
+</ol>
+
+<p>working together…</p>
+
+<!--
+<a> anchor(锚)，链接
+herf值指向链接网站
+ -->
+<a href="www.mozilla.org/zh-CN/about/manifesto/">
+    Mozilla Manifesto</a>
+
+</body>
+</html>
